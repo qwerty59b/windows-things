@@ -1,4 +1,4 @@
 Windows Registry Editor Version 5.00
 
 [HKEY_CURRENT_USER\Control Panel\Desktop]
-"MenuShowDelay"="1"
+"MenuShowDelay"="100"
