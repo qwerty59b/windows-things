@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Elimina el límite de ancho de banda reservable (QoS)
+; Esto permite que Windows utilice el 100% del ancho de banda disponible
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\Psched]
+"NonBestEffortLimit"=dword:00000000
