@@ -1,0 +1,6 @@
+Windows Registry Editor Version 5.00
+
+; Deshabilita las pruebas activas del NCSI (Network Connectivity Status Indicator)
+; Esto evita que Windows intente conectarse a msftconnecttest.com y abra el navegador.
+[HKEY_LOCAL_MACHINE\SOFTWARE\Policies\Microsoft\Windows\NetworkConnectivityStatusIndicator]
+"NoActiveProbe"=dword:00000001
